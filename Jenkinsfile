@@ -5,7 +5,7 @@
         stage('Checkout') {
             steps {
                 echo "Checkout"
-                git 'https://github.com/NevenMoore/scf_devops.git'
+                git 'https://github.com/NevenMoore/scf_devops_demo.git'
             }
         }
         stage('Build') {
